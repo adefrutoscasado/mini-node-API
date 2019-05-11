@@ -2,10 +2,10 @@
 const express = require('express')
 const router = express.Router()
 
-let {asyncWrap} = require('../utils/asyncWrap')
+let {asyncWrap} = require('./../utils/asyncWrap')
 // @ts-ignore
 let apiClient = require('./../api/apiClient')
-let fileService = require('../src/services/fileService')
+let fileService = require('./../services/fileService')
 
 // @ts-ignore
 router.get('/:userId(\\d+)', asyncWrap(async (req, res, next) => {
