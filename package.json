@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm run tsc && node build/bin/www.js",
-    "scrap": "node scrap.js",
+    "scrap": "node build/scrap.js",
     "test": "npm run tsc && npm run integration-test && npm run functional-test",
     "functional-test": "mocha ./tests/functional.js",
     "integration-test": "mocha ./tests/integration.js",

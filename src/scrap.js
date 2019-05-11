@@ -1,5 +1,5 @@
-const apiClient = require('./api/apiClient')
-const databaseService = require('./services/databaseService')
+const apiClient = require('./src/api/apiClient')
+const databaseService = require('./src/services/databaseService')
 
 let page = 0
 
